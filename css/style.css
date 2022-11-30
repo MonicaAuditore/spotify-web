@@ -37,7 +37,7 @@ main {
   background-color: var(--black);
   width: 300px;
   position: relative;
-  height: calc(100vh - 125px);
+  height: calc(100% - 125px);
   position: fixed;
   padding: 20px;
 }
@@ -197,4 +197,28 @@ main {
 
 .debug .app-user {
   background-color: aquamarine;
+}
+
+/* MEDIA QUERY TABLET*/
+
+@media screen and (max-width: 1100px) {
+  .item {
+    width: calc((100% / 4) - 20px);
+  }
+}
+
+/* MEDIA QUERY MOBILE*/
+
+@media screen and (max-width: 700px) {
+  .item {
+    width: calc((100% / 2) - 20px);
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERY MICRO MOBILE*/
+
+@media screen and (max-width: 600px) {
 }
