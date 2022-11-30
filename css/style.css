@@ -87,8 +87,13 @@ main {
 
 .container_top-bar button {
   position: absolute;
-  right: 50px;
-  top: 50px;
+  right: 8px;
+  top: 31px;
+  padding: 20px 35px;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 40px;
 }
 
 /* CONTAINER MENU ORIZZONTALE */
@@ -103,6 +108,7 @@ main {
   justify-content: center;
   gap: 30px;
   padding-top: 20px;
+  flex-wrap: wrap;
 }
 
 .elenco ul li a {
@@ -138,7 +144,6 @@ main {
 .item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: calc((100% / 6) - 20px);
 }
