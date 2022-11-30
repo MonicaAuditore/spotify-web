@@ -39,11 +39,15 @@ main {
   position: relative;
   height: calc(100vh - 125px);
   position: fixed;
+  padding: 20px;
 }
 
 .aside .logo img {
   width: 76%;
-  padding: 26px;
+}
+
+.aside ul {
+  list-style: none;
 }
 
 .aside ul li {
@@ -72,6 +76,7 @@ main {
 
 .container {
   margin-left: 300px;
+  padding-bottom: 200px;
 }
 
 /* TOP BARR */
@@ -170,12 +175,13 @@ main {
 
 /* DEBUG */
 
-.debug .aside {
+.debug .aside .app-user {
+  width: 100%;
+  min-height: 100px;
 }
 
 .debug .container {
   background-color: var(--blu);
-  height: 2000px;
   width: calc(100vw - 300px);
 }
 
@@ -183,9 +189,6 @@ main {
   height: 120px;
   background-color: rgba(255, 0, 0, 0.205);
   /* background-color: rgba(0, 0, 0, 0.5); */
-}
-
-.debug .footer {
 }
 
 .debug .item {
