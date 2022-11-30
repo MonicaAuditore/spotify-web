@@ -215,6 +215,38 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+}
+
+.footer .img-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer .left-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--lightGrey);
+}
+
+.footer .left-side-1 {
+  margin-right: 30px;
+}
+
+.footer .left-side-1 img {
+  width: 66px;
+  display: block;
+}
+
+.bold {
+  font-weight: 800;
+  color: #fff;
+}
+
+.left-side-2 i {
+  margin: 0 7px;
 }
 
 /* DEBUG */
