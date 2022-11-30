@@ -44,6 +44,11 @@ main {
 
 .aside .logo img {
   width: 76%;
+  padding-top: 5px;
+}
+
+.aside .lista-1 {
+  padding-top: 25px;
 }
 
 .aside ul {
@@ -52,6 +57,7 @@ main {
 
 .aside ul li {
   color: var(--lightGrey);
+  line-height: 35px;
 }
 
 .aside .playlist {
@@ -62,14 +68,42 @@ main {
   color: var(--white);
 }
 
-.aside .playlist p {
+.creaPly {
+  padding: 20px 0;
+}
+
+.creaPly i {
+  color: #181818;
+  padding: 10px;
+  background-color: var(--lightGrey);
+  font-size: 25px;
+  margin-right: 13px;
+  vertical-align: middle;
+}
+
+.creaPly span {
   color: var(--lightGrey);
+  font-weight: 600;
+  vertical-align: middle;
 }
 
 .app-user {
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+  color: var(--lightGrey);
+  background-color: var(--black);
+}
+
+.app-user i {
+  padding-right: 15px;
+}
+
+hr {
+  margin: 20px 0px;
 }
 
 /* CONTAINER MAIN CONTENUTO */
@@ -77,6 +111,11 @@ main {
 .container {
   margin-left: 300px;
   padding-bottom: 200px;
+}
+
+.app-user .user-name span {
+  font-weight: 800;
+  display: inline-block;
 }
 
 /* TOP BARR */
@@ -88,8 +127,8 @@ main {
 .container_top-bar button {
   position: absolute;
   right: 8px;
-  top: 31px;
-  padding: 20px 35px;
+  top: 37px;
+  padding: 16px 35px;
   background-color: var(--black);
   color: var(--white);
   border: 1px solid var(--white);
@@ -180,10 +219,9 @@ main {
 
 /* DEBUG */
 
-.debug .aside .app-user {
-  width: 100%;
-  min-height: 100px;
-}
+/* .debug .aside .app-user {
+  background-color: aquamarine;
+} */
 
 .debug .container {
   background-color: var(--blu);
@@ -192,17 +230,12 @@ main {
 
 .debug .container_top-bar {
   height: 120px;
-  background-color: rgba(255, 0, 0, 0.205);
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.debug .item {
+/* .debug .item {
   background-color: pink;
-}
-
-.debug .app-user {
-  background-color: aquamarine;
-}
+} */
 
 /* MEDIA QUERY TABLET*/
 
