@@ -52,6 +52,10 @@ main {
   padding-top: 5px;
 }
 
+.aside .logoMobile img {
+  display: none;
+}
+
 .aside .lista-1 {
   padding-top: 25px;
 }
@@ -63,6 +67,12 @@ main {
 .aside ul li {
   color: var(--lightGrey);
   line-height: 35px;
+  cursor: pointer;
+}
+
+.aside ul li a {
+  color: var(--lightGrey);
+  text-decoration: none;
 }
 
 .aside .playlist {
@@ -363,12 +373,65 @@ hr {
   .item {
     width: calc((100% / 2) - 20px);
   }
-  .container {
-    width: 100%;
-  }
 }
 
 /* MEDIA QUERY MICRO MOBILE*/
 
 @media screen and (max-width: 600px) {
+  .container {
+    width: calc(100vw - 100px);
+    margin-left: 100px;
+  }
+
+  .aside {
+    width: 100px;
+    text-align: center;
+  }
+
+  .aside ul li span {
+    display: none;
+  }
+
+  .aside .logo img {
+    display: none;
+  }
+
+  .aside .logoMobile img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .playlist,
+  .lista-2 {
+    display: none;
+  }
+
+  .app-user span {
+    display: none;
+  }
+
+  .app-user .user-name span {
+    display: none;
+  }
+
+  .user-name {
+    padding-top: 20px;
+  }
+
+  .user-name i {
+    font-size: 33px;
+  }
+
+  .app-user i {
+    padding-right: 0px;
+  }
+
+  .app-user {
+    height: auto;
+  }
+
+  hr {
+    display: none;
+  }
 }
