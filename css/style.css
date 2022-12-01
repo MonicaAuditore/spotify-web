@@ -58,6 +58,7 @@ main {
 
 .aside .lista-1 {
   padding-top: 25px;
+  position: relative;
 }
 
 .lista-1 .first-sidebar::after {
@@ -68,8 +69,8 @@ main {
   margin-right: 15px;
   width: 34px;
   position: absolute;
-  left: -6px;
-  top: 16%;
+  left: -27px;
+  top: 30%;
   transform: rotate(90deg);
 }
 
@@ -313,7 +314,7 @@ hr {
   left: 0;
 }
 
-.overlay i {
+.overlay .big.fa-regular.fa-circle-play {
   font-size: 80px;
 }
 
@@ -329,7 +330,7 @@ hr {
   align-items: center;
 }
 
-.overlay-circle i {
+.overlay-circle .big.fa-regular.fa-circle-play {
   font-size: 80px;
 }
 
