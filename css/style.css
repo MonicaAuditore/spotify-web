@@ -33,6 +33,7 @@ main {
 
 .overflow {
   overflow-y: scroll;
+  height: calc(100% - 125px);
 }
 
 /* ASIDE */
@@ -114,6 +115,9 @@ hr {
 
 .container {
   margin-left: 300px;
+  height: calc(100vh - 125px);
+  background-color: var(--blu);
+  width: calc(100vw - 300px);
 }
 
 .app-user .user-name span {
@@ -262,8 +266,6 @@ hr {
 } */
 
 .debug .container {
-  background-color: var(--blu);
-  width: calc(100vw - 300px);
 }
 
 .debug .container_top-bar {
