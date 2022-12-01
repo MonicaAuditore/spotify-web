@@ -27,8 +27,8 @@ main {
 
 /* UTILITY  */
 
-.padding-top-40 {
-  padding-top: 40px;
+.padding-top-75 {
+  padding-top: 75px;
 }
 
 .overflow {
@@ -197,6 +197,10 @@ hr {
   width: 100%;
 }
 
+.item-title {
+  padding-top: 20px;
+}
+
 .item-title h3,
 .item-title p {
   color: var(--white);
@@ -259,14 +263,37 @@ hr {
   margin: 0 7px;
 }
 
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.right-side i {
+  color: var(--lightGrey);
+}
+
+.progressBar {
+  background-color: var(--lightGrey);
+  border-radius: 16px;
+  height: 6px;
+  width: 110px;
+}
+
+.progress {
+  background-color: var(--white);
+  width: 35%;
+  border-radius: 16px;
+  height: 6px;
+  color: var(--white);
+}
+
 /* DEBUG */
 
 /* .debug .aside .app-user {
   background-color: aquamarine;
 } */
-
-.debug .container {
-}
 
 .debug .container_top-bar {
   height: 120px;
