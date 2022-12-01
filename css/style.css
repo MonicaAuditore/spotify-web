@@ -362,25 +362,22 @@ hr {
   color: var(--lightGrey);
 }
 
-.footer .left-side-1 {
-  margin-right: 70px;
-}
-
-.footer .left-side-1 img {
+.img-title .img img {
   width: 66px;
-  display: block;
 }
 
-.footer .left-side-2 .heart:hover i {
-  color: #fff;
-}
-
-.footer .left-side-2 .folder:hover i {
-  color: #fff;
-}
-
-.footer .left-side-2 {
+.preferiti {
+  margin-left: 85px;
   display: flex;
+  gap: 10px;
+}
+
+.footer .heart:hover i {
+  color: #fff;
+}
+
+.footer .folder:hover i {
+  color: #fff;
 }
 
 .bold {
