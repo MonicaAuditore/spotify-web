@@ -405,9 +405,9 @@ hr {
 .center-side-top {
   display: flex;
   justify-content: center;
-  gap: 30px;
   align-items: center;
   font-size: 20px;
+  gap: 30px;
   color: #a3a3a3;
   padding-bottom: 15px;
 }
@@ -418,7 +418,7 @@ hr {
 }
 
 .big:hover {
-  font-size: 45px;
+  font-size: 46px;
 }
 
 .center-side {
