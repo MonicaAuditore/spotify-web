@@ -31,13 +31,17 @@ main {
   padding-top: 40px;
 }
 
+.overflow {
+  overflow-y: scroll;
+}
+
 /* ASIDE */
 
 .aside {
   background-color: var(--black);
   width: 300px;
   position: relative;
-  height: calc(100% - 125px);
+  min-height: calc(100% - 125px);
   position: fixed;
   padding: 20px;
 }
@@ -110,7 +114,6 @@ hr {
 
 .container {
   margin-left: 300px;
-  padding-bottom: 200px;
 }
 
 .app-user .user-name span {
@@ -121,7 +124,10 @@ hr {
 /* TOP BARR */
 
 .container_top-bar {
-  position: relative;
+  /* position: relative; */
+  position: sticky;
+  top: 0;
+  z-index: 200;
 }
 
 .container_top-bar button {
@@ -136,10 +142,6 @@ hr {
 }
 
 /* CONTAINER MENU ORIZZONTALE */
-
-.container_content {
-  overflow: auto;
-}
 
 .elenco ul {
   list-style: none;
@@ -203,9 +205,13 @@ hr {
   border-radius: 50%;
 }
 
+.card-row-3 {
+  padding-bottom: 200px;
+}
+
 /* FOOTER */
 .footer {
-  z-index: 90;
+  z-index: 250;
   position: fixed;
   height: 125px;
   background-color: var(--grey);
