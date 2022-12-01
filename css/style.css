@@ -60,6 +60,19 @@ main {
   padding-top: 25px;
 }
 
+.lista-1 .first-sidebar::after {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #0adb29;
+  margin-right: 15px;
+  width: 34px;
+  position: absolute;
+  left: -6px;
+  top: 16%;
+  transform: rotate(90deg);
+}
+
 .aside ul {
   list-style: none;
 }
@@ -67,6 +80,15 @@ main {
 .aside ul li {
   color: var(--lightGrey);
   line-height: 35px;
+}
+
+.aside .lista-1 ul li:hover a {
+  color: var(--white);
+  cursor: pointer;
+}
+
+.aside ul li:hover {
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -85,6 +107,14 @@ main {
 
 .creaPly {
   padding: 20px 0;
+}
+
+.creaPly:hover span {
+  color: var(--white);
+}
+
+.creaPly:hover i {
+  background-color: var(--white);
 }
 
 .creaPly i {
@@ -113,6 +143,15 @@ main {
   background-color: var(--black);
 }
 
+.app-user .installa:hover span {
+  color: var(--white);
+}
+
+.app-user .user-name span {
+  font-weight: 800;
+  display: inline-block;
+}
+
 .app-user i {
   padding-right: 15px;
 }
@@ -128,11 +167,6 @@ hr {
   height: calc(100vh - 125px);
   background-color: var(--blu);
   width: calc(100vw - 300px);
-}
-
-.app-user .user-name span {
-  font-weight: 800;
-  display: inline-block;
 }
 
 /* TOP BARR */
@@ -153,6 +187,11 @@ hr {
   color: var(--white);
   border: 1px solid var(--white);
   border-radius: 40px;
+  margin-right: 10px;
+}
+
+.container_top-bar button:hover {
+  transform: scale(1.08);
 }
 
 /* CONTAINER MENU ORIZZONTALE */
@@ -166,7 +205,23 @@ hr {
   flex-wrap: wrap;
 }
 
+.elenco .first::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #0adb29;
+  margin-top: 15px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .elenco ul li a {
+  color: var(--lightGrey);
+  text-decoration: none;
+}
+
+.elenco ul li a:hover {
   color: var(--white);
   text-decoration: none;
 }
@@ -307,7 +362,7 @@ hr {
 }
 
 .footer .left-side-1 {
-  margin-right: 30px;
+  margin-right: 70px;
 }
 
 .footer .left-side-1 img {
@@ -315,8 +370,29 @@ hr {
   display: block;
 }
 
+.footer .left-side-2 .heart:hover i {
+  color: #fff;
+}
+
+.footer .left-side-2 .folder:hover i {
+  color: #fff;
+}
+
+.footer .left-side-2 {
+  display: flex;
+}
+
 .bold {
   font-weight: 800;
+  color: #fff;
+}
+
+.small {
+  font-size: 10px;
+}
+
+.title:hover span {
+  text-decoration: underline;
   color: #fff;
 }
 
@@ -337,6 +413,10 @@ hr {
 .big {
   font-size: 40px;
   vertical-align: middle;
+}
+
+.big:hover {
+  font-size: 45px;
 }
 
 .center-side {
@@ -361,6 +441,23 @@ hr {
   border-radius: 16px;
   height: 6px;
   color: var(--white);
+  position: relative;
+}
+
+.progressMusic:hover {
+  background-color: #0adb29;
+}
+
+.dot {
+  position: absolute;
+  right: 0;
+  top: -92%;
+  color: #dfe0df;
+  display: none;
+}
+
+.progressMusic:hover .dot {
+  display: block;
 }
 
 .center-side-bottom {
@@ -382,6 +479,10 @@ hr {
   border-radius: 16px;
   height: 6px;
   color: var(--white);
+}
+
+.progressVol:hover {
+  background-color: #0adb29;
 }
 
 .right-side i {

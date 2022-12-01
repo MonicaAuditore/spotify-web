@@ -37,7 +37,7 @@
           </div>
           <div class="lista-1">
             <ul>
-              <li>
+              <li class="first-sidebar">
                 <a href="#"
                   ><i class="fa-solid fa-house"></i> <span>Home</span></a
                 >
@@ -77,8 +77,10 @@
           </div>
 
           <div class="app-user">
-            <i class="fa-regular fa-circle-down"></i><span>Installa app</span>
-            <hr />
+            <div class="installa">
+              <i class="fa-regular fa-circle-down"></i><span>Installa app</span>
+              <hr />
+            </div>
             <div class="user-name">
               <i class="fa-solid fa-circle-user"></i><span>John Doe</span>
             </div>
@@ -92,7 +94,7 @@
         <div class="overflow">
           <div class="elenco">
             <ul>
-              <li><a href="#">IN EVIDENZA</a></li>
+              <li class="first"><a href="#">IN EVIDENZA</a></li>
               <li><a href="#">PODCAST</a></li>
               <li><a href="#">CLASSIFICHE</a></li>
               <li><a href="#">GENERI E MOOD</a></li>
@@ -260,13 +262,13 @@
               </div>
               <div class="title">
                 <p class="bold">Sinister</p>
-                <p>Brano Nome</p>
+                <span class="small">Brano Nome</span>
               </div>
             </div>
           </div>
           <div class="left-side-2">
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-regular fa-folder"></i>
+            <div class="heart"><i class="fa-regular fa-heart"></i></div>
+            <div class="folder"><i class="fa-regular fa-folder"></i></div>
           </div>
         </div>
         <div class="center-side">
@@ -280,7 +282,9 @@
           <div class="center-side-bottom">
             <p>0.25</p>
             <div class="progressBarMusic">
-              <div class="progressMusic"></div>
+              <div class="progressMusic">
+                <div class="dot"><i class="fa-solid fa-circle"></i></div>
+              </div>
             </div>
             <p>4:35</p>
           </div>
@@ -293,10 +297,6 @@
             <div class="progressVol"></div>
           </div>
         </div>
-
-        <!-- <div class="left-side">content</div>
-        <div class="center-side">content</div>
-        <div class="right-side">content</div> -->
       </div>
     </footer>
   </body>
