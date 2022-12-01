@@ -263,30 +263,69 @@ hr {
   margin: 0 7px;
 }
 
-.right-side {
+.center-side-top {
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: #a3a3a3;
+  padding-bottom: 15px;
+}
+
+.big {
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.center-side-bottom p {
+  color: var(--white);
+}
+
+.progressBarMusic {
+  background-color: #545454;
+  border-radius: 16px;
+  height: 6px;
+  width: 635px;
+  margin: 0px 30px;
+}
+
+.progressMusic {
+  background-color: var(--white);
+  width: 35%;
+  border-radius: 16px;
+  height: 6px;
+  color: var(--white);
+}
+
+.center-side-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+}
+
+.progressBarVolume {
+  background-color: #545454;
+  border-radius: 16px;
+  height: 6px;
+  width: 110px;
+}
+
+.progressVol {
+  background-color: var(--white);
+  width: 35%;
+  border-radius: 16px;
+  height: 6px;
+  color: var(--white);
 }
 
 .right-side i {
   color: var(--lightGrey);
 }
 
-.progressBar {
-  background-color: var(--lightGrey);
-  border-radius: 16px;
-  height: 6px;
-  width: 110px;
-}
-
-.progress {
-  background-color: var(--white);
-  width: 35%;
-  border-radius: 16px;
-  height: 6px;
-  color: var(--white);
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 /* DEBUG */
