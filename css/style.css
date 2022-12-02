@@ -31,11 +31,6 @@ main {
   padding-top: 75px;
 }
 
-.overflow {
-  overflow-y: scroll;
-  height: calc(100% - 125px);
-}
-
 /* ASIDE */
 
 .aside {
@@ -181,6 +176,11 @@ hr {
   height: calc(100vh - 125px);
   background-color: var(--blu);
   width: calc(100vw - 300px);
+}
+
+.overflow {
+  overflow-y: scroll;
+  height: 100%;
 }
 
 /* TOP BARR */
