@@ -574,6 +574,10 @@ hr {
   .item {
     flex: 0 0 auto;
   }
+
+  audio {
+    display: none;
+  }
 }
 
 /* MEDIA QUERY MOBILE*/
@@ -667,6 +671,10 @@ hr {
   }
 
   .lista-1 .first-sidebar::after {
+    display: none;
+  }
+
+  audio {
     display: none;
   }
 }
