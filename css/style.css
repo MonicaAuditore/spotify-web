@@ -186,7 +186,8 @@ hr {
 /* TOP BARR */
 
 .container_top-bar {
-  /* position: relative; */
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.5);
   position: sticky;
   top: 0;
   z-index: 200;
@@ -527,10 +528,10 @@ hr {
   background-color: aquamarine;
 } */
 
-.debug .container_top-bar {
+/* .debug .container_top-bar {
   height: 120px;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 /* .debug .item {
   background-color: pink;

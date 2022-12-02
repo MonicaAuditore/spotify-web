@@ -1,4 +1,18 @@
-/* BONUS */
+/* BONUS AUDIO*/
+audio::-webkit-media-controls-panel {
+  background-color: #a3a3a3;
+  border: none;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #282828;
+  border-radius: 50%;
+  color: #dfe0df;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #7a7a7a;
+}
 
 /* RESET */
 * {
@@ -188,10 +202,11 @@ hr {
 /* TOP BARR */
 
 .container_top-bar {
-  /* position: relative; */
   position: sticky;
   top: 0;
   z-index: 200;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container_top-bar button {
@@ -534,10 +549,10 @@ hr {
   background-color: aquamarine;
 } */
 
-.debug .container_top-bar {
+/* .debug .container_top-bar {
   height: 120px;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 /* .debug .item {
   background-color: pink;
@@ -652,6 +667,13 @@ hr {
   }
 
   .lista-1 .first-sidebar::after {
+    display: none;
+  }
+}
+
+/* MEDIA QUERY BONUS NASCONDERE CALL TO ACTION*/
+@media screen and (min-height: 725px;) {
+  .container_top-bar button {
     display: none;
   }
 }
