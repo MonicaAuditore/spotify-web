@@ -680,7 +680,7 @@ hr {
 }
 
 /* MEDIA QUERY BONUS NASCONDERE CALL TO ACTION*/
-@media screen and (min-height: 725px;) {
+@media screen and (max-height: 725px) {
   .container_top-bar button {
     display: none;
   }
