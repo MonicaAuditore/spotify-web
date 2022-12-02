@@ -44,7 +44,6 @@ main {
   position: relative;
   height: calc(100% - 125px);
   position: fixed;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -63,7 +62,7 @@ main {
 
 .aside .logo img {
   width: 76%;
-  padding-top: 5px;
+  padding: 20px;
 }
 
 .aside .logoMobile img {
@@ -71,20 +70,20 @@ main {
 }
 
 .aside .lista-1 {
-  padding-top: 25px;
+  padding: 20px;
   position: relative;
 }
 
 .lista-1 .first-sidebar::after {
   content: "";
   display: block;
-  height: 5px;
+  height: 23px;
   background-color: #0adb29;
   margin-right: 15px;
-  width: 34px;
+  width: 39px;
   position: absolute;
-  left: -27px;
-  top: 30%;
+  left: -26px;
+  top: 18%;
   transform: rotate(90deg);
 }
 
@@ -114,6 +113,7 @@ main {
 
 .aside .playlist {
   padding-top: 20px;
+  padding: 20px;
 }
 
 .aside .playlist h4 {
@@ -581,7 +581,7 @@ hr {
   .aside .logoMobile img {
     display: block;
     width: 50%;
-    margin: 0 auto;
+    margin: 13px auto;
   }
 
   .playlist,
@@ -629,5 +629,9 @@ hr {
 
   .preferiti {
     padding-left: 5%;
+  }
+
+  .app-user {
+    padding: 20px 0px;
   }
 }
