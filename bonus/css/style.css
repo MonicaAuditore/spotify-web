@@ -257,11 +257,6 @@ hr {
   text-decoration: none;
 }
 
-/* CARD SCROLL TABLET */
-
-.scrolling-wrapper-flexbox {
-}
-
 /* CONTAINER CARD */
 
 .container_content {
@@ -367,6 +362,16 @@ hr {
 
 .overlay-circle .big.fa-regular.fa-circle-play {
   font-size: 80px;
+}
+
+/* EFFETTO ZOOM CARD */
+
+.container_content_items:hover {
+  transition: all 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.09);
 }
 
 /* FOOTER */
