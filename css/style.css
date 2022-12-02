@@ -43,14 +43,12 @@ main {
   width: 300px;
   position: relative;
   height: calc(100% - 125px);
+  min-height: 500px;
   position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .aside-top {
-  min-height: calc(100% - 130px);
+  height: calc(100% - 130px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -149,6 +147,7 @@ main {
 
 .lista-2 {
   overflow-y: auto;
+  padding-left: 20px;
 }
 
 .app-user {
@@ -633,5 +632,9 @@ hr {
 
   .app-user {
     padding: 20px 0px;
+  }
+
+  .lista-1 .first-sidebar::after {
+    display: none;
   }
 }
