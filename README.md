@@ -1,4 +1,4 @@
-# html-css-spotifyweb
+# Spotify web
 
 Ciao Ragazzi,
 esercizio di oggi: Spotify
