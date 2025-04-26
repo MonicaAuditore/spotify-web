@@ -677,7 +677,8 @@ hr {
   .center-side-top {
     font-size: 13px;
   }
-  .big:hover {
+  .big:hover,
+  .big {
     font-size: 28px;
   }
 }
