@@ -639,3 +639,52 @@ hr {
     display: none;
   }
 }
+
+@media screen and (max-width: 924px) {
+  .preferiti {
+    padding-left: 8%;
+  }
+}
+
+@media screen and (max-width: 742px) {
+  .preferiti {
+    display: none;
+  }
+
+  .fa-solid.fa-list-ul,
+  .fa-solid.fa-desktop {
+    display: none;
+  }
+
+  .footer .img-title {
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .center-side-bottom p,
+  .img-text {
+    font-size: 10px;
+  }
+
+  .progressBarMusic {
+    margin: 0px 8px;
+  }
+
+  .right-side {
+    gap: 6px;
+  }
+
+  .center-side-top {
+    font-size: 13px;
+  }
+  .big:hover {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .right-side {
+    gap: 12px;
+    flex-direction: column;
+  }
+}
